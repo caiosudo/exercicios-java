@@ -22,7 +22,7 @@ public class exercicio_3 {
 		nota4 = scan.nextDouble();
 		media = (nota1 + nota2 + nota3 + nota4)/4;
 		if (media<21) {
-			System.out.print("péssimo!");}
+			System.out.print("pÃ©ssimo!");}
 		else if (media>20 && media<41) {
 			System.out.print("Ruim!");}
 		else if (media>40 && media<61) {
@@ -30,8 +30,11 @@ public class exercicio_3 {
 		else if (media>60 && media<81) {
 			System.out.print("Bom!");}
 		else if (media>80 && media<101) {
-		 	System.out.print("Ótimo!");}
-		System.out.printf("\nAs suas notas foram: %.1f / %.1f / %.1f / %.1f \n%s, sua média é de %.1f", nota1, nota2, nota3, nota4, nome, media);
+		 	System.out.print("Ã“timo!");}
+		else {
+			System.put.println("Informe um valor vÃ¡lido!")
+		}
+		System.out.printf("\nAs suas notas foram: %.1f / %.1f / %.1f / %.1f \n%s, sua mÃ©dia Ã© de %.1f", nota1, nota2, nota3, nota4, nome, media);
 
 	}
 
